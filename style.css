@@ -1,0 +1,50 @@
+body {
+    width: 1024px;
+    text-align: left;
+    height: 522px;
+    margin: 10px auto;
+    background-color:red;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+header,
+nav,
+main,
+aside,
+footer{
+background-color: black;
+color: white;
+display: flex;
+justify-content: center;
+border: 1px solid gray;
+align-items: center;
+}
+
+header, nav, footer {
+    width: 1024px ;
+}
+header {height: 88px;}
+nav{height: 48px;}
+main{height: 340px; width: 800px; }
+aside{height: 340px; width: 220px;}
+footer{height: 32px;}
+
+.logo {
+    height: 40px;
+}
+
+.caratula{
+    height: 250px;
+}
+
+a{
+    text-align: center;
+}
+
+
+
+
+
+
+
